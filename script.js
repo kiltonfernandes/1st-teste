@@ -1,4 +1,5 @@
-const counter = new Counter();
+const STORAGE_KEY = 'simple-counter-value';
+const counter = new Counter(0, STORAGE_KEY);
 const countEl = document.getElementById('count');
 const incrementBtn = document.getElementById('increment');
 
